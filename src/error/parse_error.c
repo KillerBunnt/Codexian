@@ -6,7 +6,7 @@
 /*   By: thdexmun <thdexmun@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/09 12:21:49 by thdexmun          #+#    #+#             */
-/*   Updated: 2026/11/09 12:45:13 by thdexmun         ###   ########.fr       */
+/*   Updated: 2026/11/11 19:02:04 by thdexmun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ static void	print_usage(void)
 t_boolean	parse_error(t_error error)
 {
 	if (error == P_ARG_COUNT)
-		printf("Not enough arguments\n");
+		printf("Must have 8 arguments\n");
 	else if (error == P_CODERS_NUM)
 		printf("Invalid number of coders\n");
 	else if (error == P_BURNOUT_TIME)
